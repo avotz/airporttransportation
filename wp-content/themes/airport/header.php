@@ -29,7 +29,7 @@
             <a href="#" class="top__social__link"><i class="icon-google-plus"></i></a>
         </div>
         <div class="top__info">
-            Contact Us: Liberia 2222-2222, 1111-1111
+            Contact Us: Liberia +(506) 2667-03-39, US: +1(786) 600-1246
         </div>
     </div>
    

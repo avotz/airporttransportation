@@ -43,11 +43,24 @@ get_header(); ?>
             
             <section class="main__featured inner">
                 <article class="main__featured__item">
-                    <a href="#" class="main__featured__item__link">
+                    <a href="<?php echo esc_url( home_url( '/san-jose-airport-transfer' ) ); ?>" class="main__featured__item__link">
                         <figure class="main__featured__item__figure">
                             <div class="main__featured__item__img" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/featured1.jpg');"></div>
                             <figcaption class="main__featured__item__caption bg-verde">
-                                <h3 class="main__featured__item__title">Private Drivers</h3>
+                                <h3 class="main__featured__item__title">San Jose Airport Transfer</h3>
+                                <!--<p class="main__featured__item__description">Lorem ipsum dolor sit amet, consectetur.</p>-->
+                            </figcaption>   
+                        </figure>
+                    </a>
+                    
+                </article>
+                
+                <article class="main__featured__item">
+                    <a href="<?php echo esc_url( home_url( '/liberia-airport-transfer' ) ); ?>" class="main__featured__item__link">
+                        <figure class="main__featured__item__figure">
+                            <div class="main__featured__item__img" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/featured3.jpg');"></div>
+                            <figcaption class="main__featured__item__caption bg-verde">
+                                <h3 class="main__featured__item__title">Liberia Airport Transfer</h3>
                                 <!--<p class="main__featured__item__description">Lorem ipsum dolor sit amet, consectetur.</p>-->
                             </figcaption>   
                         </figure>
@@ -55,7 +68,7 @@ get_header(); ?>
                     
                 </article>
                 <article class="main__featured__item">
-                    <a href="#" class="main__featured__item__link">
+                    <a href="<?php echo esc_url( home_url( '/about-us' ) ); ?>" class="main__featured__item__link">
                         <figure class="main__featured__item__figure">
                             <div class="main__featured__item__img" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/featured2.jpg');"></div>
                             <figcaption class="main__featured__item__caption bg-verde">
@@ -67,19 +80,7 @@ get_header(); ?>
                     
                 </article>
                 <article class="main__featured__item">
-                    <a href="#" class="main__featured__item__link">
-                        <figure class="main__featured__item__figure">
-                            <div class="main__featured__item__img" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/featured3.jpg');"></div>
-                            <figcaption class="main__featured__item__caption bg-verde">
-                                <h3 class="main__featured__item__title">Door to door transportation</h3>
-                                <!--<p class="main__featured__item__description">Lorem ipsum dolor sit amet, consectetur.</p>-->
-                            </figcaption>   
-                        </figure>
-                    </a>
-                    
-                </article>
-                <article class="main__featured__item">
-                    <a href="#" class="main__featured__item__link">
+                    <a href="<?php echo esc_url( home_url( '/about-us' ) ); ?>" class="main__featured__item__link">
                         <figure class="main__featured__item__figure">
                             <div class="main__featured__item__img" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/featured4.jpg');"></div>
                             <figcaption class="main__featured__item__caption bg-verde">
