@@ -22,7 +22,7 @@ get_header(); ?>
                         <div class="inner">
                             <div class="main__slider__slide__info main__slider__slide__info--left">
                                 <h1>Airport Transportation</h1>
-                                <h4 class="white">Promises you our best effort in order to satisfaied your needs and exceed your expectations </h4>
+                                <h4 class="white">Promises you our best effort in order to satisfy your needs and exceed your expectations</h4>
                             </div>
                             
                         </div>

@@ -26,7 +26,7 @@
                 <p class="footer__social__info">Follow us Google Plus</p>
             </div>
             <div class="footer__social__item">
-                <a href="#" class="footer__social__link"><i class="icon-envelope"></i></a>
+                <a href="mailto:info@airporttransportationcostarica.com" class="footer__social__link"><i class="icon-envelope"></i></a>
                 <p class="footer__social__info">Send us Mail</p>
             </div>
         </div>
