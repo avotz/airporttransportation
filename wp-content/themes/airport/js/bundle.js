@@ -75,7 +75,9 @@ function(a){"use strict";a.extend(a.fn.cycle.defaults,{tmplRegex:"{{((.)?.*?)}}"
 $form_transfer = $('.transfer-popup form');
 
  $('.btn-book-transfer').on('click', function(){
+          
           $table = $(this).parents('.table');
+
           if($table.hasClass('table-sj'))
           {
             $form_transfer.find('select[name="from"]').val('San Jose Airport');

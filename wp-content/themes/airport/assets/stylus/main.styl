@@ -86,6 +86,8 @@ textarea
 	background-color verde
 .bg-amarillo
 	background-color amarillo
+
+.btn-fixed-transfer
 .wpcf7-submit
 .btn 
 	display inline-block
@@ -548,6 +550,55 @@ textarea
 				a 
 					i 
 						font-size 2rem
+
+.btn-fixed-transfer
+	position fixed
+	top 40%
+	left -20px
+	z-index 999
+	background-color orange
+	color white
+	transform rotate(-90deg)
+	&:hover
+		background-color celeste
+.two-columns{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  
+}
+.two-columns .column{
+  width: 100%;
+}
+.two-columns > p{
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+  .two-columns .column{
+    width: 45%;
+  }
+  .two-columns > p{
+      width: 45%;
+  }
+
+}
+
+.form-two-columns{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.form-two-columns .column{
+    width: 100%;
+}
+@media screen and (min-width: 540px)
+{
+    .form-two-columns .column{
+        width: 45%;
+    }
+}
+
 .table 
 	thead 
 		tr 

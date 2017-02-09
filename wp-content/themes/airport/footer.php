@@ -50,7 +50,7 @@
     
     
 </footer>
-
+<a href="#transfer-popup" class="btn-book-transfer btn-fixed-transfer">Book Now</a>
 <div id="transfer-popup" class="transfer-popup white-popup mfp-hide mfp-with-anim">
     <h3>Transfer Reservation</h3>               
     <?php echo do_shortcode('[contact-form-7 id="43" title="Reservation Transfers"]') ?>
