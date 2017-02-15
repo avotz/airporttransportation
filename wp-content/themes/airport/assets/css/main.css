@@ -549,7 +549,7 @@ table {
 }
 body {
   font-family: 'Oswald', sans-serif;
-  font-size: 80%;
+  font-size: 100%;
   font-weight: 400;
   line-height: 30px;
   color: #707070;
@@ -1284,7 +1284,7 @@ textarea {
 .single-right,
 .archive-right,
 .error404-right {
-  margin-top: 5rem;
+  margin-top: 1rem;
   display: inline-block;
   width: 100%;
   vertical-align: top;
@@ -1364,6 +1364,7 @@ textarea {
   .blog-content,
   .single-content,
   .archive-content {
+    margin-top: 5rem;
     width: 64%;
   }
   .blog-content .entry-banner,
@@ -1374,6 +1375,7 @@ textarea {
   .blog-right,
   .single-right,
   .archive-right {
+    margin-top: 5rem;
     width: 30%;
     margin-left: 3rem;
   }
