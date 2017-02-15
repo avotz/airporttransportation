@@ -182,7 +182,7 @@ textarea{overflow:auto;vertical-align:top;height:90px}
 .footer__social__link{display:inline-block;background-color:#29abe2;width:87px;height:87px;border-radius:50%;color:#fff;font-size:2.5rem;padding:1.5rem}
 .footer__social__link:hover{background-color:#fff;color:#2b313b}
 .footer__copyright{background-color:#29abe2;color:#333;padding:1rem}
-.footer__copyright__avotz a{color:#fff;display:block}
+.footer__copyright__avotz a,.footer__copyright__phone{color:#fff;display:block}
 .footer__copyright__avotz a i{font-size:3rem;display:inline-block;vertical-align:middle}
 .footer__menu li,.footer__menu__item{display:inline-block}
 .footer__menu a,.footer__menu__link{display:block;padding:.5rem;color:#fff}
@@ -192,6 +192,7 @@ textarea{overflow:auto;vertical-align:top;height:90px}
 .footer__social__item{margin:0 1rem}
 .footer__menu a,.footer__menu__link{font-size:.7rem}
 .footer__copyright{position:relative;padding:0}
+.footer__copyright__phone{position:absolute;left:1.2rem;top:8px;font-size:.8rem}
 .footer__copyright__avotz{position:absolute;right:1.2rem;top:8px;font-size:.6rem}
 .footer__copyright__avotz a i{font-size:2rem}
 }

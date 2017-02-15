@@ -33,6 +33,7 @@
        
     </div>
     <div class="footer__copyright">
+        <span class="footer__copyright__phone">Liberia +(506) 8526-8465, US: +1(786) 600-1246</span>
         <div class="inner">
              <?php wp_nav_menu( array(
                      'theme_location' => 'secondary',

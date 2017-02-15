@@ -1139,6 +1139,10 @@ textarea {
   text-align: center;
   padding: 1rem;
 }
+.footer__copyright__phone {
+  color: #fff;
+  display: block;
+}
 .footer__copyright__avotz a {
   color: #fff;
   display: block;
@@ -1183,6 +1187,12 @@ textarea {
   .footer__copyright {
     position: relative;
     padding: 0;
+  }
+  .footer__copyright__phone {
+    position: absolute;
+    left: 1.2rem;
+    top: 8px;
+    font-size: 0.8rem;
   }
   .footer__copyright__avotz {
     position: absolute;
