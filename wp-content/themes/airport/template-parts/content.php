@@ -25,7 +25,19 @@
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
+	<?php if ( has_post_thumbnail() ) :
 
+	  	 	$id = get_post_thumbnail_id($post->ID);
+	  	 	$thumb_url = wp_get_attachment_image_src($id,'large', true);
+	  	 	?>
+	    	
+			<div class="entry-banner" style="background-image: url('<?php echo $thumb_url[0] ?>');">
+				<?php if ( ! is_single() ) : ?>
+					<a href="<?php the_permalink(); ?>"></a>
+				<?php endif; ?>
+			</div>
+						
+		<?php endif; ?>
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(

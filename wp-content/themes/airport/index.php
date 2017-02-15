@@ -16,11 +16,11 @@ get_header(); ?>
 
 	<main id="primary" class="main content-area">
 		<div class="inner" >
-
+		<div class="blog-content">
 		<?php
 		if ( have_posts() ) :
 
-			if ( is_home() && ! is_front_page() ) : ?>
+			if ( ! is_home() && ! is_front_page() ) : ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
@@ -46,10 +46,15 @@ get_header(); ?>
 
 			get_template_part( 'template-parts/content', 'none' );
 
-		endif; 
-
-		   get_sidebar();
-			?>
+		endif; ?>
+			</div>
+			<div class="blog-right">
+				
+			
+			   <?php 
+			     get_sidebar();
+				?>
+			</div>
 		</div><!-- #main -->
 	</main><!-- #primary -->
 

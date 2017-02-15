@@ -11,7 +11,7 @@ get_header(); ?>
 
 	<main id="primary" class="main content-area">
 		<div class="inner" >
-
+		<div class="single-content">
 		<?php
 		while ( have_posts() ) : the_post();
 
@@ -24,9 +24,15 @@ get_header(); ?>
 				comments_template();
 			endif;
 
-		endwhile; // End of the loop.
-		get_sidebar();
-		?>
+		endwhile; // End of the loop.?>
+		</div>
+			<div class="single-right">
+				
+			
+			   <?php 
+			     get_sidebar();
+				?>
+			</div>
 
 		</div><!-- #main -->
 	</main><!-- #primary -->

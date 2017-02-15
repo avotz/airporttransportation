@@ -50,6 +50,8 @@ img
 input[type="text"]
 input[type="email"]
 input[type="number"]
+input[type="search"]
+input[type="url"]	
 select
 textarea
 	width 100%
@@ -89,6 +91,7 @@ textarea
 
 .btn-fixed-transfer
 .wpcf7-submit
+.submit
 .btn 
 	display inline-block
 	color gris
@@ -100,6 +103,7 @@ textarea
 	color white
 	
 .wpcf7-submit
+.submit
 	background-color azul
 	&:hover
 		background-color verde
@@ -604,6 +608,62 @@ textarea
 		tr 
 			background-color verde
 			color white
-			
+
+.blog
+.single
+.archive
+.error404
+	&-content 
+	&-right
+		margin-top 5rem 
+		display inline-block
+		width 100%
+		vertical-align top
+		a 
+			color verde
+		ul 
+			margin-left 45px
+		
+	&-content 
+		header
+			text-align center
+		.entry-banner
+			position relative
+			a 
+				position absolute
+				left 0
+				right 0
+				top 0
+				bottom 0
+	.widget
+		margin-bottom 1rem
+	.search-submit
+		display none
+	
+.error-404
+	padding-top 2rem
+	.widget
+	.search-form
+		margin-bottom 1rem
+	.page-header
+		text-align center
+	.page-content
+		max-width 500px
+		margin 0 auto
+	
+	a 
+		color verde
+		
+@media screen and (min-width: 980px)
+	.blog
+	.single
+	.archive
+		&-content
+			width 64%
+			.entry-banner
+				height 300px 
+		&-right 
+			width 30%
+			margin-left: 3rem;				
 		
 @import "tables.styl"

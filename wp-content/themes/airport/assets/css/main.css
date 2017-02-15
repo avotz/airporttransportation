@@ -581,6 +581,8 @@ img {
 input[type="text"],
 input[type="email"],
 input[type="number"],
+input[type="search"],
+input[type="url"],
 select,
 textarea {
   width: 100%;
@@ -633,6 +635,7 @@ textarea {
 }
 .btn-fixed-transfer,
 .wpcf7-submit,
+.submit,
 .btn {
   display: inline-block;
   color: #333;
@@ -643,10 +646,12 @@ textarea {
   border: none;
   color: #fff;
 }
-.wpcf7-submit {
+.wpcf7-submit,
+.submit {
   background-color: #028dd2;
 }
-.wpcf7-submit:hover {
+.wpcf7-submit:hover,
+.submit:hover {
   background-color: #9c6;
 }
 .btn-white {
@@ -1264,6 +1269,108 @@ textarea {
 .table thead tr {
   background-color: #9c6;
   color: #fff;
+}
+.blog-content,
+.single-content,
+.archive-content,
+.error404-content,
+.blog-right,
+.single-right,
+.archive-right,
+.error404-right {
+  margin-top: 5rem;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.blog-content a,
+.single-content a,
+.archive-content a,
+.error404-content a,
+.blog-right a,
+.single-right a,
+.archive-right a,
+.error404-right a {
+  color: #9c6;
+}
+.blog-content ul,
+.single-content ul,
+.archive-content ul,
+.error404-content ul,
+.blog-right ul,
+.single-right ul,
+.archive-right ul,
+.error404-right ul {
+  margin-left: 45px;
+}
+.blog-content header,
+.single-content header,
+.archive-content header,
+.error404-content header {
+  text-align: center;
+}
+.blog-content .entry-banner,
+.single-content .entry-banner,
+.archive-content .entry-banner,
+.error404-content .entry-banner {
+  position: relative;
+}
+.blog-content .entry-banner a,
+.single-content .entry-banner a,
+.archive-content .entry-banner a,
+.error404-content .entry-banner a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.blog .widget,
+.single .widget,
+.archive .widget,
+.error404 .widget {
+  margin-bottom: 1rem;
+}
+.blog .search-submit,
+.single .search-submit,
+.archive .search-submit,
+.error404 .search-submit {
+  display: none;
+}
+.error-404 {
+  padding-top: 2rem;
+}
+.error-404 .widget,
+.error-404 .search-form {
+  margin-bottom: 1rem;
+}
+.error-404 .page-header {
+  text-align: center;
+}
+.error-404 .page-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.error-404 a {
+  color: #9c6;
+}
+@media screen and (min-width: 980px) {
+  .blog-content,
+  .single-content,
+  .archive-content {
+    width: 64%;
+  }
+  .blog-content .entry-banner,
+  .single-content .entry-banner,
+  .archive-content .entry-banner {
+    height: 300px;
+  }
+  .blog-right,
+  .single-right,
+  .archive-right {
+    width: 30%;
+    margin-left: 3rem;
+  }
 }
 table {
   background-color: transparent;
