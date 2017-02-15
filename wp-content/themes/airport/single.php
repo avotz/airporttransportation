@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<main id="primary" class="content-area">
 		<div class="inner" >
 
 		<?php
@@ -25,11 +25,12 @@ get_header(); ?>
 			endif;
 
 		endwhile; // End of the loop.
+		get_sidebar();
 		?>
 
 		</div><!-- #main -->
-	</div><!-- #primary -->
+	</main><!-- #primary -->
 
 <?php
-get_sidebar();
+
 get_footer();
