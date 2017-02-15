@@ -662,6 +662,12 @@ textarea {
   background-color: #000;
   color: #fff;
 }
+.more-link {
+  color: #29abe2 !important;
+}
+.more-link:hover {
+  color: #9c6 !important;
+}
 .inner {
   max-width: 1186px;
   margin: 0 auto;

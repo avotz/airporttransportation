@@ -82,8 +82,10 @@ textarea{overflow:auto;vertical-align:top;height:90px}
 .submit,.wpcf7-submit{background-color:#028dd2}
 .submit:hover,.wpcf7-submit:hover{background-color:#9c6}
 .btn-white{background-color:#fff;color:#000}
-.btn-black,.top__info,.top__info__link:hover,.top__social__link:hover{color:#fff}
-.btn-black{background-color:#000}
+.btn-black{background-color:#000;color:#fff}
+.more-link{color:#29abe2!important}
+.more-link:hover{color:#9c6!important}
+.top__info,.top__info__link:hover,.top__social__link:hover{color:#fff}
 .inner{max-width:1186px;margin:0 auto;padding-left:1.2rem;padding-right:1.2rem}
 .top{background-color:#29abe2;position:absolute;height:44px;display:none;z-index:999}
 .top__info,.top__social{display:inline-block;float:right;line-height:44px}
