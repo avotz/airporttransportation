@@ -12,7 +12,11 @@
 ?>
   <footer class="footer">
     <div class="inner">
+        <div class="footer__tripadvisor">
+          <div id="TA_selfserveprop233" class="TA_selfserveprop"><ul id="1AKdFwe60iiW" class="TA_links 6dCmzEb"><li id="3BoCsJyW78" class="VGkgEZQv2"><a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="https://www.jscache.com/wejs?wtype=selfserveprop&uniq=233&locationId=12148552&lang=en_US&rating=true&nreviews=2&writereviewlink=true&popIdx=true&iswide=false&border=true&display_version=2"></script>
+        </div>
         <div class="footer__social">
+            <h3>Follow Us</h3>
             <div class="footer__social__item">
                  <a href="#" class="footer__social__link "><i class="icon-facebook"></i></a>
                  <p class="footer__social__info">Follow us Facebook</p>
@@ -30,10 +34,19 @@
                 <p class="footer__social__info">Send us Mail</p>
             </div>
         </div>
+         <div class="footer__numbers">
+              <h3>Informatión</h3>
+              <span class="footer__copyright__phone">Liberia +(506) 2667-03-39</span>
+              <span class="footer__copyright__phone">Liberia +(506) 8526-8465 </span>
+              <span class="footer__copyright__phone">US: +1(786) 600-1246</span>
+               <span class="footer__copyright__phone">info@airporttransfercostarica.com</span>
+               <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="footer__logo"><img src="<?php echo get_template_directory_uri();  ?>/img/logo.png" alt="Airport Transportation" class="footer__logo__img" /></a>
+             
+         </div>
        
     </div>
     <div class="footer__copyright">
-        <span class="footer__copyright__phone">Liberia +(506) 8526-8465, US: +1(786) 600-1246</span>
+        <span class="footer__copyright__avotz2"></span>
         <div class="inner">
              <?php wp_nav_menu( array(
                      'theme_location' => 'secondary',

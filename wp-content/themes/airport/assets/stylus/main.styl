@@ -290,7 +290,7 @@ textarea
 		flex-wrap wrap
 		justify-content space-between
 		position relative
-		z-index 999
+		z-index 900
 		
 		&__item 
 			width 100%
@@ -479,29 +479,50 @@ textarea
 	
 .footer
 	background-color gris
-	&__social
+	
+	> .inner 
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+		padding 1rem 1rem
 		text-align center
+	&__logo
+		margin-top 1rem
+		width 150px
+		display inline-block
+	&__tripadvisor
+		padding 2rem 0
+		width 100%
+		.widSSP 
+			width 100% !important
+	&__social
+		//text-align center
+		width 100%
 		padding 1rem
 		&__item 
-			display inline-block
+			display block
 			margin .5rem .2rem
 		&__info 
-			display none	
+			display none
+			vertical-align middle	
 		
 		&__link
 			display inline-block
+			vertical-align middle
 			background-color celeste
-			width 87px 
-			height 87px
+			width 67px 
+			height 67px
 			border-radius 50%
 			color white
 			text-align center
 			font-size 2.5rem
-			padding 1.5rem
+			padding 1.1rem
 			&:hover
 				background-color white
 				color gris2		
-			
+	&__numbers
+		padding 1rem 0
+		width 100%	
 	&__copyright
 		background-color celeste
 		color gris
@@ -533,16 +554,23 @@ textarea
 			&:hover
 				color gris		
 				
-			
-@media screen and (min-width:900px)
+@media screen and (min-width:768px)
 	.footer
 		&__social
-			padding 2rem
+		&__tripadvisor
+		&__numbers
+			width auto	
+@media screen and (min-width:900px)
+	.footer
+		> .inner
+			text-align left
+		&__social
+			padding 1rem
 			&__info
-				display block
-				font-size .7rem
+				display inline-block
+				font-size 1rem
 			&__item
-				margin 0 1rem					
+				margin 1rem 1rem					
 		&__menu 
 			a
 			&__link
@@ -551,11 +579,11 @@ textarea
 		&__copyright
 			position relative
 			padding 0
-			&__phone
+			/*&__phone
 				position absolute
 				left 1.2rem
 				top 8px
-				font-size .8rem
+				font-size .8rem*/
 			&__avotz
 				position absolute
 				right 1.2rem

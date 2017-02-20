@@ -882,7 +882,7 @@ textarea {
   -webkit-justify-content: space-between;
   justify-content: space-between;
   position: relative;
-  z-index: 999;
+  z-index: 900;
 }
 .main__featured__item {
   width: 100%;
@@ -1107,31 +1107,71 @@ textarea {
 .footer {
   background-color: #333;
 }
-.footer__social {
+.footer > .inner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 1rem 1rem;
   text-align: center;
+}
+.footer__logo {
+  margin-top: 1rem;
+  width: 150px;
+  display: inline-block;
+}
+.footer__tripadvisor {
+  padding: 2rem 0;
+  width: 100%;
+}
+.footer__tripadvisor .widSSP {
+  width: 100% !important;
+}
+.footer__social {
+  width: 100%;
   padding: 1rem;
 }
 .footer__social__item {
-  display: inline-block;
+  display: block;
   margin: 0.5rem 0.2rem;
 }
 .footer__social__info {
   display: none;
+  vertical-align: middle;
 }
 .footer__social__link {
   display: inline-block;
+  vertical-align: middle;
   background-color: #29abe2;
-  width: 87px;
-  height: 87px;
+  width: 67px;
+  height: 67px;
   border-radius: 50%;
   color: #fff;
   text-align: center;
   font-size: 2.5rem;
-  padding: 1.5rem;
+  padding: 1.1rem;
 }
 .footer__social__link:hover {
   background-color: #fff;
   color: #2b313b;
+}
+.footer__numbers {
+  padding: 1rem 0;
+  width: 100%;
 }
 .footer__copyright {
   background-color: #29abe2;
@@ -1169,16 +1209,26 @@ textarea {
 .footer__menu__link:hover {
   color: #333;
 }
+@media screen and (min-width: 768px) {
+  .footer__social,
+  .footer__tripadvisor,
+  .footer__numbers {
+    width: auto;
+  }
+}
 @media screen and (min-width: 900px) {
+  .footer > .inner {
+    text-align: left;
+  }
   .footer__social {
-    padding: 2rem;
+    padding: 1rem;
   }
   .footer__social__info {
-    display: block;
-    font-size: 0.7rem;
+    display: inline-block;
+    font-size: 1rem;
   }
   .footer__social__item {
-    margin: 0 1rem;
+    margin: 1rem 1rem;
   }
   .footer__menu a,
   .footer__menu__link {
@@ -1187,12 +1237,11 @@ textarea {
   .footer__copyright {
     position: relative;
     padding: 0;
-  }
-  .footer__copyright__phone {
-    position: absolute;
-    left: 1.2rem;
-    top: 8px;
-    font-size: 0.8rem;
+/*&__phone
+				position absolute
+				left 1.2rem
+				top 8px
+				font-size .8rem*/
   }
   .footer__copyright__avotz {
     position: absolute;
