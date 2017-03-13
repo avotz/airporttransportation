@@ -31,7 +31,7 @@
 <div class="top">
     <div class="inner">
          <div class="top__social">
-            <a href="#" class="top__social__link"><i class="icon-facebook"></i></a>
+            <a href="https://www.facebook.com/airporttransportationcostarica/" class="top__social__link" target="_blank"><i class="icon-facebook"></i></a>
             <a href="#" class="top__social__link"><i class="icon-twitter"></i></a>
             <a href="#" class="top__social__link"><i class="icon-google-plus"></i></a>
         </div>

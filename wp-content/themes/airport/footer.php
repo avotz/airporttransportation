@@ -18,7 +18,7 @@
         <div class="footer__social">
             <h3>Follow Us</h3>
             <div class="footer__social__item">
-                 <a href="#" class="footer__social__link "><i class="icon-facebook"></i></a>
+                 <a href="https://www.facebook.com/airporttransportationcostarica/" class="footer__social__link " target="_blank"><i class="icon-facebook"></i></a>
                  <p class="footer__social__info">Follow us Facebook</p>
             </div>
             <div class="footer__social__item">
