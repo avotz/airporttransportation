@@ -13,7 +13,15 @@
   <footer class="footer">
     <div class="inner">
         <div class="footer__tripadvisor">
-          <!-- <div id="TA_selfserveprop233" class="TA_selfserveprop"><ul id="1AKdFwe60iiW" class="TA_links 6dCmzEb"><li id="3BoCsJyW78" class="VGkgEZQv2"><a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="https://www.jscache.com/wejs?wtype=selfserveprop&uniq=233&locationId=12148552&lang=en_US&rating=true&nreviews=2&writereviewlink=true&popIdx=true&iswide=false&border=true&display_version=2"></script> -->
+          <div id="TA_selfserveprop810" class="TA_selfserveprop">
+            <ul id="RIIgf6EEl" class="TA_links PtkNZidOet">
+            <li id="O5ddMA3XG" class="qGOvkReX">
+            <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
+            </li>
+            </ul>
+            </div>
+            <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=810&amp;locationId=12148552&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2"></script>
+
         </div>
         <div class="footer__social">
             <h3>Follow Us</h3>
