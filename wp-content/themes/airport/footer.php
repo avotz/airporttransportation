@@ -13,14 +13,14 @@
   <footer class="footer">
     <div class="inner">
         <div class="footer__tripadvisor">
-          <div id="TA_selfserveprop810" class="TA_selfserveprop">
-            <ul id="RIIgf6EEl" class="TA_links PtkNZidOet">
-            <li id="O5ddMA3XG" class="qGOvkReX">
+          <div id="TA_selfserveprop717" class="TA_selfserveprop">
+            <ul id="4ep1YnlHjfH" class="TA_links YKVTthumEK">
+            <li id="IupgbD3H80Xe" class="Ib53qOusBhtu">
             <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
             </li>
             </ul>
             </div>
-            <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=810&amp;locationId=12148552&amp;lang=en_US&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2"></script>
+            <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=717&amp;locationId=12148552&amp;lang=en_US&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
 
         </div>
         <div class="footer__social">
