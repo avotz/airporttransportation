@@ -44,7 +44,7 @@
         </div>
          <div class="footer__numbers">
               <h3>Informatión</h3>
-              <span class="footer__copyright__phone">Office phone: +(506) 2667-03-39 | (8 am to 5 pm)</span>
+              <span class="footer__copyright__phone">Office phone: +(506) 2668-01-02 | (8 am to 5 pm)</span>
               <span class="footer__copyright__phone">Mobile phone +(506) 8526-8465  | (24 hrs)</span>
               <span class="footer__copyright__phone">USA: +1(786) 600-1246 | (24 hrs)</span>
                <span class="footer__copyright__phone">info@airporttransportationcostarica.com</span>
