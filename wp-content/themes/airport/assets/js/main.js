@@ -62,5 +62,11 @@ $form_transfer = $('.transfer-popup form');
 
       });
 
+    
+    $(".datepicker").pickadate({
+        //closeOnSelect: true,
+        format: 'yyyy-mm-dd'
+    });
+
 
 })(jQuery);

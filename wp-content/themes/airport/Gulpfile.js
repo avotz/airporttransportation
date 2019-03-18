@@ -29,6 +29,9 @@ gulp.task('js', function () {
       './assets/js/vendor/jquery.magnific-popup.min.js',
       './assets/js/vendor/jquery.cycle2.min.js',
       './assets/js/vendor/chosen.jquery.min.js',
+      './assets/js/vendor/chosen.jquery.min.js',
+      './assets/js/vendor/picker.js',
+      './assets/js/vendor/picker.date.js',
      
      
 
@@ -52,7 +55,7 @@ gulp.task('stylus', function () {
 });
 
 gulp.task('css', function () {
-  gulp.src(['./assets/css/main.css','./assets/css/magnific-popup.css','./assets/css/chosen.css'])
+  gulp.src(['./assets/css/main.css', './assets/css/magnific-popup.css', './assets/css/chosen.css', './assets/css/classic.css', './assets/css/classic.date.css'])
     .pipe(minifyCSS({ keepSpecialComments: '*', keepBreaks: '*'}))
     .pipe(concat('style.css'))
     .pipe(gulp.dest('./'))
