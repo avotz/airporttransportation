@@ -68,5 +68,11 @@ $form_transfer = $('.transfer-popup form');
         format: 'yyyy-mm-dd'
     });
 
+    var wpcf7Elm = document.querySelector('.wpcf7-form');
+
+    wpcf7Elm.addEventListener('wpcf7submit', function (event) {
+        alert("Thank you for your message. It has been sent.!");
+    }, false);
+
 
 })(jQuery);
